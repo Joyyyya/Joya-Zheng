@@ -1,12 +1,88 @@
 import React from 'react'
+import Card from '../components/Card';
 import Link from 'gatsby-link'
+
+
 
 const IndexPage = () => (
   <div>
-    <h1>Hi nihao</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <div className="hero">
+     <div className="herogroup">
+     <div className="group">
+     <div className="photo">
+     <Link to="/about/"><img  src={require('../image/头像-01.png')} width="170" /></Link>
+     <span className="hi">
+     <img src={require('../image/Hi.png')} width="80"></img>
+     </span>
+     </div>
+     </div>
+     <div className="p1"> <img  src={require('../image/吉他.png')} width="40" /></div>
+     <div className="p2"> <img src={require('../image/画笔.png')} width="40" /></div>
+     <div className="p3"> <img  src={require('../image/坚果.png')} width="40" /></div>
+     <div className="p4"> <img  src={require('../image/篮球.png')} width="40" /></div>
+     <div className="p5"> <img  src={require('../image/平板.png')} width="60" /></div>
+     <div className="p6"> <img  src={require('../image/球.png')} width="40" /></div>
+     <div className="p7"> <img  src={require('../image/沙发.png')} width="60" /></div>
+     <div className="p8"> <img  src={require('../image/书本.png')} width="50" /></div>
+     <div className="p9"> <img  src={require('../image/书本2.png')} width="60" /></div>
+     <div className="p10"> <img  src={require('../image/水杯.png')} width="40" /></div>
+     <div className="p11"> <img  src={require('../image/星球.png')} width="40" /></div>
+     <div className="p12"> <img  src={require('../image/颜料.png')} width="50" /></div>
+     <div className="p13"> <img  src={require('../image/颜料盘.png')} width="40" /></div>
+    
+     
+
+      <h1>郑泽君<br />
+      </h1>
+      <p>这里是简介</p>
+      <svg width="100%" height="172" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill="white">
+         <animate repeatCount="indefinite" fill="freeze" attributeName="d" dur="10s" values="M0 25.9086C277 84.5821 433 65.736 720 25.9086C934.818 -3.9019 1214.06 -5.23669 1442 8.06597C2079 45.2421 2208 63.5007 2560 25.9088V171.91L0 171.91V25.9086Z;
+
+         M0 87.1596C316 87.1597 444 160 884 52.0001C1324 -55.9999 1320.29 34.966 1538 71.251C1814 117.251 2156 189.252 2560 87.1597V233.161L0 233.161V87.1596Z;
+
+         M0 53.6584C158 11.0001 213 0 363 0C513 0 855.555 115.001 1154 115.001C1440 115.001 1626 -38.0004 2560 53.6585V199.66L0 199.66V53.6584Z;
+
+         M0 25.9086C277 84.5821 433 65.736 720 25.9086C934.818 -3.9019 1214.06 -5.23669 1442 8.06597C2079 45.2421 2208 63.5007 2560 25.9088V171.91L0 171.91V25.9086Z
+        
+        "
+         />
+        </path>
+       </svg>
+      </div>
+    </div>   
+  
+    <div className="Cards">
+      <div className="CardGroup">
+      <Link to="P1"><Card 
+        //  title="Design system"
+         text="SenseHi 刷脸打卡动效设计"
+         image={require('../image/sensehi2.png')}/></Link>
+       <Link to="P2"><Card 
+        //  title="React for Designers"
+         text="10 sections"
+         image={require('../image/watch.png')}/></Link>
+        <Link to="P3"> <Card 
+        //  title="Sound Design"
+         text="真时科技4G手表"
+         image={require('../image/watch.png')}/></Link>
+         <Link to="P4"> <Card 
+        //  title="ARkit 2"
+         text="10 sections"
+         image={require('../image/watch.png')}/></Link>
+        <Link to="P5"> <Card 
+        //  title="ARkit 2"
+         text="10 sections"
+         image={require('../image/watch.png')}/></Link>
+         <Link to="P6"><Card 
+        //  title="ARkit 2"
+         text="10 sections"
+         image={require('../image/watch.png')}/></Link>
+      </div>
+    </div> 
+    
+    <div className="Footer"> ©️2019 by Joya Zheng </div>
+    
   </div>
 )
 

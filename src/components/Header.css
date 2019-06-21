@@ -1,0 +1,65 @@
+.Header{
+    margin:0 auto;
+    background: rgba(29, 29, 29, 0.8); 
+    position: fixed;
+    width: 100%;
+    padding: 30px 0;
+    z-index: 100;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1)
+}
+
+/* .HeaderScrolled {
+    background: rgba(0, 0, 0, 0.8); 
+    padding: 30px 0;
+    backdrop-filter: blur(20px);
+} */
+
+
+
+.HeaderGroup {
+    max-width: 1000px;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(16,auto);
+    align-items: center;
+    justify-items: center;
+}
+
+
+.Header a{
+    color: rgba(255, 255, 255, 0.7); 
+    font-weight: 700;  
+}
+
+.Header button1:hover{
+    color: rgba(255, 255, 255, 1); 
+}
+
+
+.Header button2:hover{
+    color:rgba(255, 255, 255, 1); 
+}
+
+
+.Header button3:hover{
+    color:rgba(255, 255, 255, 1); 
+}
+
+
+.Header button4:hover{
+    color:rgba(255, 255, 255, 1); 
+}
+
+
+@media (max-width: 640px){
+    .Header{
+        padding: 15px 0;
+    }
+
+    .HeaderGroup {
+        grid-template-columns: repeat(4,auto);
+    }
+
+
+}
+

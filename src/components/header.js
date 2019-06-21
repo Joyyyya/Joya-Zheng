@@ -1,33 +1,38 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import './Header.css'
 
-const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </div>
-)
+
+
+
+// class Header extends React.Component{
+  
+  const Header =({ siteTitle }) =>(
+ 
+      // <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
+      <div className="Header">
+       <div className="HeaderGroup">
+         <Link to="/" ><button1>Joya Zheng</button1></Link>
+         <Link to="/">                       </Link>  
+         <Link to="/">                       </Link>
+         <Link to="/">                       </Link> 
+         <Link to="/">                       </Link>
+         <Link to="/">                       </Link>
+         <Link to="/">                       </Link>  
+         <Link to="/">                       </Link> 
+         <Link to="/">                       </Link> 
+         <Link to="/">                       </Link> 
+         <Link to="/">                       </Link> 
+         <Link to="/">                       </Link>
+         <Link to="/">                       </Link>
+         <a href="/#Card"><button2>项目</button2></a>
+         <Link to="/jianli/" ><button3>简历</button3></Link>
+         <Link to="/about/" ><button4>关于我</button4></Link>
+       </div>
+     </div> 
+    )
+  
+
 
 export default Header
+
