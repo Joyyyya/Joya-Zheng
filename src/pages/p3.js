@@ -4,31 +4,31 @@ import './p3.css'
 
 const p3 = () => (
   <div>
-  <div className="nav">
-   <a href="#1" id="n1" >简介</a>
-   <a href="#2" id="n2" >设计背景</a>
-   <a href="#3" id="n3" >设计分析</a>
-   <a href="#4" id="n4" >方案对比</a>
-   <a href="#5" id="n5" >总结反思</a>
+  <div className="nav3">
+   <a href="#31" id="n1" >简介</a>
+   <a href="#32" id="n2" >设计背景</a>
+   <a href="#33" id="n3" >设计分析</a>
+   <a href="#34" id="n4" >方案对比</a>
+   <a href="#35" id="n5" >总结反思</a>
  </div>
- <div className="content">
- <a name="1"></a> <h1>真时4G智能手表</h1>
-  <div className="简介">
+ <div className="content3">
+ <a name="31"></a> <h1>真时4G智能手表</h1>
+  <div className="简介3">
    <img  src={require('../image/手表.png')}/>
-  <p id="简介">简介</p>
- <p id="简介内容">随着科技发展和4G时代的到来，智能手表不断发展，逐渐脱离其他电子设备独立使用。真时科技希望在现有产品功能的基础上研发设计一款4G智能手表，这款手表可以独立通信，并且相比公司原来的产品具备更多更完善的功能。独立通信手表面临着一个挑战：如何让用户在小小的表盘中高效地完成任务。</p>
-  <p id="时间">时间</p>
-  <p id="时间内容">2018/11-2018/12</p>
-  <p id="角色和工作">角色和工作</p>
-  <a name="2"></a><p id="角色和工作内容">交互设计师负责更换表盘需求设计</p>
+  <p id="简介3">简介</p>
+ <p id="简介内容3">随着科技发展和4G时代的到来，智能手表不断发展，逐渐脱离其他电子设备独立使用。真时科技希望在现有产品功能的基础上研发设计一款4G智能手表，这款手表可以独立通信，并且相比公司原来的产品具备更多更完善的功能。独立通信手表面临着一个挑战：如何让用户在小小的表盘中高效地完成任务。</p>
+  <p id="时间3">时间</p>
+  <p id="时间内容3">2018/11-2018/12</p>
+  <p id="角色和工作3">角色和工作</p>
+  <a name="32"></a><p id="角色和工作内容3">交互设计师负责更换表盘需求设计</p>
   </div>
-   <div className="设计背景">
+   <div className="设计背景3">
    <h1>01</h1>
    <h2>设计背景</h2>
    <p>时间表盘是手表的第一入口，承载基础的时间显示、快捷信息获取和个性化需求。4G智能手表中用户可以随时切换表盘，我对这个需求进行分析，确定用户的操作路径和方式，提出不同设计方案并根据优劣势抉择最终方案，完成界面交互设计。</p>
-   <a name="3"></a><img  src={require('../image/表盘.png')}/>
+   <a name="33"></a><img  src={require('../image/表盘.png')}/>
   </div>
-  <div className="设计分析">
+  <div className="设计分析3">
   <h1>02</h1>
   <h2>设计分析</h2>
   <h3>1.用户使用场景</h3>
@@ -53,12 +53,12 @@ const p3 = () => (
   <h6>4.设计要点</h6>
   <img   src={require('../image/快速预览.png') } />
   <img   src={require('../image/对比.png')} />
-  <a name="4"></a><img  src={require('../image/路径短.png')} />
+  <a name="34"></a><img  src={require('../image/路径短.png')} />
   <p id="fast">快速浏览 > 多个表盘浏览</p>
   <p id="clear">对比 > 表盘样式清晰</p>
   <p id="short">快速预览 > 操作路径短</p>
   </div>
-  <div className="方案对比">
+  <div className="方案对比3">
   <h1>03</h1>
   <h2>方案对比</h2>
   <h3>1.进入表盘管理</h3>
@@ -89,18 +89,18 @@ const p3 = () => (
   <p id="上移">1.击表盘上移出列表删除表盘;<br />2.用户操作过程中不知道这是删除操作</p>
   <p id="删除">1.点击左上角按钮删除，和手机上的删除操作一样;<br />2.图标较小，不容易点击，防止误触;<br />3.给用户的引导太强，删除表盘并不是高频行为，优先级低于浏览切换表盘。影响表盘样式</p>
   <div className="上移1"><img   src={require('../image/上移删除1.png') }  /></div>
-  <a name="5"></a><img   src={require('../image/上移删除2.png')} />
+  <a name="35"></a><img   src={require('../image/上移删除2.png')} />
   <p id="上移1">1.当用户做出上移删除表盘的动作时，左边的表盘会往右移。<br />2.用户完全移出表盘时，左边的表盘取代移出表盘的位置。<br />3.表盘位置的移动给用户反馈，但是反馈不够明显。</p>
   <p id="上移2">1.当用户点击表盘上移时， 呼出删除操作。<br />2.当用户点击表盘上移时，表面上方出现垃圾箱，用户将表盘上移进垃圾箱删除。<br />3.用户删除后，左边的表盘替代原表盘位置</p>
   </div >
-  <div className="总结反思">
+  <div className="最终方案3">
   <h1>04</h1>
-  <h2>总结反思</h2>
-  <p>1.手表端相比移动端，操作界面更小，为手表端设计界面时，需要考虑各种手势交互，提高操作效率。<br />2.在手表端中适当采用移动端中用户熟悉的交互操作，降低用户认知。<br />3.较小的操作界面、用户耐心不足、外界环境的干扰以及手表端上复杂的任务流程设计是设计手表端需要解决的难题。</p>
+  <h2>最终方案</h2>
+  <img src={require('../image/最终方案.png') }  />
   </div>
-  <div className="翻页1"> 
+  <div className="翻页13"> 
   <Link to="/p2" ><button >上一篇</button></Link></div>
-  <div className="翻页2"> <Link to="/p3" ><button >下一篇</button></Link></div>
+  <div className="翻页23"> <Link to="/p4" ><button >下一篇</button></Link></div>
   <div className="Footer"> ©️2019 by Joya Zheng </div>
 </div>
 </div>

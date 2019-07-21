@@ -1,667 +1,575 @@
-.div{
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-  }
-  
-  .content{
-      max-width: 950px;
-      min-width: 950px;
-      padding: 100px 50px 0 0;
-      text-align: center;
-      
-    }
-    
-    .content h1{
-      font-size: 36px;
-      color: #343434;
-    }
-    
-    .nav{
-      width:70px;
-      height: 130px;
-      position: fixed;
-      top:300px;
-      right: 80px;
-      line-height: 30px;
-      display: grid;
-      grid-template-columns: repeat(1,1fr);
-    }
-  
-    .nav a{
-      font-size: 16px;
-      color: #9C9C9C;
-    }
-  
-  
-    #n1:hover {
-     color: #4C4C4C;
-    }
-   
-  
-    #n2:hover {
-      color: #4C4C4C;
-     }
-  
-     #n3:hover {
-      color: #4C4C4C;
-     }
-  
-     #n4:hover {
-      color: #4C4C4C;
-     }
-  
-     #n5:hover {
-      color: #4C4C4C;
-     }
-  
-   .简介 {
-    margin: 50px 0;
-   }
-  
-   .简介 img{
-    float: left;
-    width: 480px;
-    overflow: hidden;
-    }
-  
-    
-     #简介{
-       margin: 40px 0 10px 0 ;
-       padding: 10px 0 0 0;
-       text-align: left;
-       font-size: 20px;
-       font-weight: bold;
-     }
-  
-     #简介内容{
-      font-size: 16px;
-      line-height: 28px;
-      text-align: left;
-      color: #414141;
+
+    .div{
       margin: 0 auto;
+      padding: 0;
+      width: 100%;
     }
-  
-    #时间{
-      margin: 0 0 20px 0;
+    
+    .content1{
+        max-width: 950px;
+        min-width: 950px;
+        padding: 100px 0 0 230px;
+        text-align: center;
+        
+      }
+      
+      .content1 h1{
+        font-size: 36px;
+        color: #343434;
+      }
+      
+      .nav1{
+        width:70px;
+        height: 130px;
+        position: fixed;
+        top:300px;
+        right: 80px;
+        line-height: 30px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+      }
+    
+      .nav1 a{
+        font-size: 16px;
+        color: #9C9C9C;
+      }
+    
+    
+      #n1:hover {
+       color: #4C4C4C;
+      }
+     
+    
+      #n2:hover {
+        color: #4C4C4C;
+       }
+    
+       #n3:hover {
+        color: #4C4C4C;
+       }
+    
+       #n4:hover {
+        color: #4C4C4C;
+       }
+    
+       #n5:hover {
+        color: #4C4C4C;
+       }
+    
+     .简介1 {
+      margin: 50px 0;
+     }
+    
+     .简介1 img{
+      float: left;
+      width: 480px;
+      overflow: hidden;
+      }
+    
+      
+       #简介1{
+         margin: 30px 0 10px 0;
+         padding: 40px 0 0 0;
+         text-align: left;
+         font-size: 20px;
+         font-weight: bold;
+       }
+    
+       #简介内容1{
+        font-size: 16px;
+        line-height: 28px;
+        text-align: left;
+        color: #414141;
+        margin: 0 auto;
+      }
+    
+      #时间1{
+        margin: 0 0 10px 0;
+        padding: 20px 0 0 0;
+        text-align: left;
+        font-size: 20px;
+        font-weight: bold;
+      }
+    
+      #时间内容1{
+       font-size: 16px;
+       line-height: 28px;
+       text-align: left;
+       color: #414141;
+       margin: 0 auto;
+     }
+    
+     #角色和工作1{
+      margin: 0 0 10px 0;
       padding: 20px 0 0 0;
       text-align: left;
       font-size: 20px;
       font-weight: bold;
     }
-  
-    #时间内容{
+    
+    #角色和工作内容1{
      font-size: 16px;
      line-height: 28px;
      text-align: left;
      color: #414141;
      margin: 0 auto;
+    }
+    
+    .设计背景1{
+      margin: 80px 0 0 0;
+    }
+    
+    .设计背景1 h1{
+      font-family: initial;
+      font-size: 64px;
+      color: rgba(255,37,0,0.15);
+      position: relative;
+      right: 45px;
+      margin: 0 auto;
+    }
+    
+    .设计背景1 h2{
+      font-size: 24px;
+      color: rgba(52,52,52,1);
+      position: relative;
+      top:-65px;
+    }
+    
+    .设计背景1 img{
+      margin-top: -100px;
+    }
+
+    
+    
+    .设计分析1{
+      margin: 40px 0 0 0;
+    }
+    
+    
+    .设计分析1 h1{
+      font-family: initial;
+      font-size: 64px;
+      color: rgba(255,37,0,0.15);
+      position: relative;
+      right: 45px;
+      margin: 0 auto;
+    }
+    
+    .设计分析1 h2{
+      font-size: 24px;
+      color: rgba(52,52,52,1);
+      position: relative;
+      top:-65px;
+    }
+    
+    .设计分析1 h3{
+      font-size: 18px;
+      text-align: left;
+      color: #343434;
+      margin-top: -60px;
+      margin-bottom: 5px;
+    }
+    
+    .设计分析1 p{
+      font-size: 16px;
+      line-height: 28px;
+      text-align: left;
+      color: #414141;
+    }
+    
+    .设计分析1 h4{
+      font-size: 18px;
+      text-align: left;
+      color: #343434;
+      margin-top: -180px;
+      margin-bottom: -3px;
+     
+    }
+
+    .设计分析1 h5{
+      font-size: 18px;
+      text-align: left;
+      color: #343434;
+      margin-bottom: -3px;
+      
+    }
+
+    .设计分析1 h6{
+      font-size: 18px;
+      text-align: left;
+      color: #343434;
+      margin-bottom: -3px;
+    }
+
+    #一{
+      width: 180px;
+      position: relative;
+      left: 95px;
+      top: -20px;
+    }
+    
+    #二和三{
+    position: relative;
+    left: 400px;
+    top:-150px;
+    }
+
+    #四{ 
+     width:180px;
+    position: relative;
+    left: 680px;
+    top:-225px;
+    }
+    
+    .方案对比1 h1{
+      font-family: initial;
+      font-size: 64px;
+      color: rgba(255,37,0,0.15);
+      position: relative;
+      right: 45px;
+      margin: 0 auto;
+    }
+    
+    .方案对比1 h2{
+      font-size: 24px;
+      color: rgba(52,52,52,1);
+      position: relative;
+      top:-65px;
+    }
+    
+    .方案对比1 h3{
+      font-size: 18px;
+      text-align: left;
+      color: #343434;
+      
+    }
+    
+    #方案对比{
+      font-size: 16px;
+      line-height: 28px;
+      text-align: left;
+      color: #414141;
+      margin-top: -40px;
+    }
+    
+   #放大{
+     position: relative;
+     left:-120px;
    }
-  
-   #角色和工作{
-    margin: 0 0 10px 0;
-    padding: 20px 0 0 0;
-    text-align: left;
-    font-size: 20px;
-    font-weight: bold;
-  }
-  
-  #角色和工作内容{
-   font-size: 16px;
-   line-height: 28px;
-   text-align: left;
-   color: #414141;
-   margin: 0 auto;
-  }
-  
-  .设计背景{
-    margin: 80px 0 0 0;
-  }
-  
-  .设计背景 h1{
-    font-family: initial;
-    font-size: 64px;
-    color: rgba(52,52,52,0.15);
+
+   #绽放{
     position: relative;
-    right: 45px;
-    margin: 0 auto;
+    left:100px;
   }
-  
-  .设计背景 h2{
-    font-size: 24px;
-    color: rgba(52,52,52,1);
-    position: relative;
-    top:-65px;
-  }
-  
-  .设计背景 p{
+
+  #方案一{
     font-size: 16px;
     line-height: 28px;
     text-align: left;
     color: #414141;
-    margin-top: -60px;
-  }
-  
-  .设计分析{
-    margin: 40px 0 0 0;
-  }
-  
-  
-  .设计分析 h1{
-    font-family: initial;
-    font-size: 64px;
-    color: rgba(52,52,52,0.15);
     position: relative;
-    right: 45px;
-    margin: 0 auto;
-  }
-  
-  .设计分析 h2{
-    font-size: 24px;
-    color: rgba(52,52,52,1);
+    left: 20px;
+  }  
+
+  #方案二{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
     position: relative;
-    top:-65px;
+    left: 400px;
+    top:-45px;
+  }  
+
+  #方案三{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+    position: relative;
+    left: 660px;
+    top:-85px;
+  }  
+
+  #缩小{
+    position: relative;
+    left:-200px;
   }
-  
-  .设计分析 h3{
+
+  #最终{
+    width: 400px;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+    position: relative;
+    left: 450px;
+    top:-300px;
+  }
+
+
+  #end{
+    width: 400px;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+    position: relative;
+    left:170px;
+    top:-150px;
+  }
+
+  .方案对比1 h4{
     font-size: 18px;
     text-align: left;
     color: #343434;
-    margin-top: -60px;
-    margin-bottom: 5px;
-  }
-  
-  
-  .unhappy{
-    width: 200px;
-    margin-right: 170px;
-    margin-top: -30px;
-    float: left;
-    overflow: hidden;
-  }
-  
-  .unhappy p{
-    font-size: 16px;
-    line-height: 28px;
-    text-align: center;
-    color: #414141;
-  }
-  
-  .eye{
-    width: 203px;
-    margin-right: 135px;
-    margin-top: -30px;
-    float: left;
-    overflow: hidden;
-  }
-  
-  .eye p{
-    font-size: 16px;
-    line-height: 28px;
-    text-align: center;
-    color: #414141;
-  }
-  
-  .guanli{
-    width: 240px;
-    margin-top: -30px;
-    float: left;
-    overflow: hidden;
-  }
-  
-  .guanli p{
-    font-size: 16px;
-    line-height: 28px;
-    text-align: center;
-    color: #414141;
-  }
-  
-  .设计分析 h4{
-    font-size: 18px;
-    text-align: left;
-    color: #343434;
-    margin-top: 100px;
-    margin-bottom: 5px;
-  }
-  
-  #goal{
-    position: relative;
-    left:-150px;
-  }
-  
-  #pinlv{
-    position: relative;
-    left:-150px;
-  }
-  
-  .goal{
-    width: 200px;
-    margin-right: 170px;
-    margin-top: -30px;
-    float: left;
-    top:100px;
-    overflow: hidden;
+    margin-top: -80px;
     
   }
-  
-  .goal p{
-    font-size: 16px;
-    line-height: 28px;
-    text-align: center;
-    color: #414141;
-  }
-  
-  .pinlv{
-    width: 240px;
-    margin-top: -30px;
-    float: left;
-    top:100px;
-    overflow: hidden;
-    margin-right: 330px;
-    
-  }
-  
-  .pinlv p{
-    font-size: 16px;
-    line-height: 28px;
-    text-align: center;
-    color: #414141;
-  }
-  
-  .设计分析 h5{
-    font-size: 18px;
-    text-align: left;
-    color: #343434;
-    margin-top: 100px;
-    margin-bottom: 5px;
-  }
-  
-  #b1{
-    margin-top: -385px;
-    margin-left: 40px;
-    margin-bottom: 110px;
-    width:880px;
-    font-size: 16px;
-    line-height: 28px;
-    text-align: left;
-    color: #414141;
-  }
-  
-  #b2{
-    margin-left: 40px;
-    margin-bottom: 110px;
-    width:860px;
-    font-size: 16px;
-    line-height: 28px;
-    text-align: left;
-    color: #414141;
-  }
-  
-  #b3{
-    margin-left: 40px;
-    width:880px;
-    font-size: 16px;
-    line-height: 28px;
-    text-align: left;
-    color: #414141;
-  }
-  
-  .设计分析 h6{
-    font-size: 18px;
-    text-align: left;
-    color: #343434;
-    margin-top: 100px;
-    margin-bottom: 5px;
-  }
-  
-  
-  
-  #fast{
-    margin: 0 0 40px 0 ;
-    width: 316px;
-    font-size: 16px;
-    line-height: 28px;
-    text-align: center;
-    color: #414141;
-    float: left;
-    overflow: hidden;
-  }
-  
-  #clear{
-    margin: 0 0 40px 0;
-    width: 316px;
-    font-size: 16px;
-    line-height: 28px;
-    text-align: center;
-    color: #414141;
-    float: left;
-    overflow: hidden;
-  }
-  
-  #short{
-    margin: 0 0 40px 0;
-    width: 316px;
-    font-size: 16px;
-    line-height: 28px;
-    text-align: center;
-    color: #414141;
-    float: left;
-    overflow: hidden;
-  }
-  
-  
-  .方案对比 h1{
-    font-family: initial;
-    font-size: 64px;
-    color: rgba(52,52,52,0.15);
+
+  #大{
     position: relative;
-    right: 45px;
-    margin: 0 auto;
+    left:-245px;
   }
-  
-  .方案对比 h2{
-    font-size: 24px;
-    color: rgba(52,52,52,1);
+
+  #小{
     position: relative;
-    top:-65px;
+    left:-200px;
   }
-  
-  .方案对比 h3{
-    font-size: 18px;
-    text-align: left;
-    color: #343434;
-    margin-top: -60px;
-    margin-bottom: 5px;
-  }
-  
-  .方案对比 p{
+
+
+  #说明{
+    width: 350px;
     font-size: 16px;
     line-height: 28px;
-    text-align: left;
-    color: #414141;
-  }
-  
-  
-  
-  #单击{
-    width: 220px;
-    z-index: 99;
-    position: relative;
-    top:-235px;
-    right: -50px;
-    font-size: 14px;
-    line-height: 25px;
-    text-align: left;
-    color: #414141;
-    
-    
-  }
-  
-  #双击{
-    width: 220px;
-    position: relative;
-    top:-420px;
-    right: -370px;
-    font-size: 14px;
-    line-height: 25px;
-    text-align: left;
-    color: #414141;
-    
-    
-  }
-  
-  #长按{
-    width: 220px;
-    position: relative;
-    top:-515px;
-    right: -695px;
-    font-size: 14px;
-    line-height: 25px;
-    text-align: left;
-    color: #414141;
-    
-  }
-  
-  .两指{
-    width:316px;
-    margin-top: -400px;
-    float: left;
-    overflow: hidden;
-  }
-  
-  
-  .缩放{
-    width:316px;
-    float: left;
-    margin-top: -400px;
-    margin-right: 310px;
-    overflow: hidden;
-  }
-  
-  #两指{
-    width: 220px;
-    font-size: 14px;
-    line-height: 25px;
     text-align: left;
     color: #414141;
     position: relative;
-    top:-210px;
-    right: -50px;
-    
+    left:550px;
+    top:-435px;
   }
-  
-  #缩放{
-    width: 220px;
-    font-size: 14px;
-    line-height: 25px;
+
+  #内{
+    width: 350px;
+    font-size: 16px;
+    line-height: 28px;
     text-align: left;
     color: #414141;
     position: relative;
-    top:-325px;
-    right: -370px;
+    top: -274px;
+    left:280px;
+    
   }
-  
-  .方案对比 h4{
+
+  #外{
+    width: 350px;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+    position: relative;
+    top: -230px;
+    left: -8px;
+  }
+
+  .方案对比1 h5{
     font-size: 18px;
     text-align: left;
     color: #343434;
     margin-top: -200px;
-    margin-bottom: 5px;
-  }
-  
-  
-  #左右{
-    width: 220px;
-    z-index: 99;
-    position: relative;
-    top:-225px;
-    right: -50px;
-    font-size: 14px;
-    line-height: 25px;
-    text-align: left;
-    color: #414141;
-    
     
   }
-  
-  #上下{
-    width: 220px;
+
+  #弹窗{
     position: relative;
-    top:-370px;
-    right: -370px;
-    font-size: 14px;
-    line-height: 25px;
-    text-align: left;
-    color: #414141;
-    
-    
+    left:-245px;
   }
-  
-  #缩略{
-    width: 230px;
+
+  #打钩{
     position: relative;
-    top:-530px;
-    right: -690px;
-    font-size: 14px;
-    line-height: 25px;
-    text-align: left;
-    color: #414141;
-    
+    left:-200px;
   }
-  
-  .方案对比 h5{
-    font-size: 18px;
-    text-align: left;
-    color: #343434;
-    margin-top: -380px;
-    margin-bottom: 5px;
-  }
-  
-  .上移{
-    width:316px;
-    float: left;
-    overflow: hidden;
-  }
-  
-  
-  .删除{
-    width:316px;
-    float: left;
-    margin-right: 310px;
-    overflow: hidden;
-  }
-  
-  #上移{
-    width: 220px;
-    font-size: 14px;
-    line-height: 25px;
-    text-align: left;
-    color: #414141;
-    position: relative;
-    top:-210px;
-    right: -50px;
-    
-  }
-  
-  #删除{
-    width: 230px;
-    font-size: 14px;
-    line-height: 25px;
-    text-align: left;
-    color: #414141;
-    position: relative;
-    top:-300px;
-    right: -363px;
-  }
-  
-  .上移1{
-    margin-top: -250px;
-  }
-  
-  #上移1{
-    font-size: 14px;
-    line-height: 25px;
-    text-align: left;
-    color: #414141;
-    position: relative;
-    top:-570px;
-    right: -250px;
-    
-  }
-  
-  #上移2{
-    font-size: 14px;
-    line-height: 25px;
-    text-align: left;
-    color: #414141;
-    position: relative;
-    top:-240px;
-    right: -220px;
-  }
-  
-  .总结反思 h1{
-    font-family: initial;
-    font-size: 64px;
-    color: rgba(52,52,52,0.15);
-    position: relative;
-    right: 45px;
-    margin-top: -180px;
-  }
-  
-  .总结反思 h2{
-    font-size: 24px;
-    color: rgba(52,52,52,1);
-    position: relative;
-    top:-85px;
-  }
-  
-  .总结反思 p{
-    margin-top: -80px;
-    margin-left: 40px;
+
+  #说明2{
+    width: 350px;
     font-size: 16px;
     line-height: 28px;
     text-align: left;
     color: #414141;
-    margin-bottom: 80px;
+    position: relative;
+    left:550px;
+    top:-435px;
   }
+
+  #toast{
+    width: 350px;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+    position: relative;
+    top:-180px;
+    left:30px;
+  }
+
+  #success{
+    width: 350px;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+    position: relative;
+    top:-224px;
+    left:250px;
+  }
+
+  .方案对比1 h6{
+    font-size: 18px;
+    text-align: left;
+    color: #343434;
+    margin-top: -130px;
+    
+  }
+
+  #上升{
+    position: relative;
+    left:-120px;
+  }
+
+  #时间{
+   position: relative;
+   left:100px;
+ }
+
+ #方案一4{
+  font-size: 16px;
+  line-height: 28px;
+  text-align: left;
+  color: #414141;
+  position: relative;
+  left: 20px;
+}  
+
+#方案二4{
+  font-size: 16px;
+  line-height: 28px;
+  text-align: left;
+  color: #414141;
+  position: relative;
+  left: 400px;
+  top:-45px;
+}  
+
+#方案三4{
+  font-size: 16px;
+  line-height: 28px;
+  text-align: left;
+  color: #414141;
+  position: relative;
+  left: 730px;
+  top:-85px;
+}  
+
+#说明4{
   
-  .翻页1 button{
-      cursor:pointer;
-      background-color: white;
-      border: 2px solid #484848;
-      color: #181818;
-      padding: 10px 50px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-     
-      border-radius: 5px;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: left;
+  color: #414141;
+  margin-top: -50px;
+
+}
+
+
+
+
+#最终1{
+  font-size: 18px;
+  text-align: left;
+  color: #343434;
+  font-weight: bold;
+  margin-top: 100px;
+  
+}
+
+#打卡动效{
+  position: relative;
+  left:-30px;
+}
+
+#动效文档{
+  position: relative;
+  left:50px;
+  top:15px;
+}
+
+#方案{
+  width: 100px;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: left;
+  color: #414141;
+  padding-left: 80px;
+  
+}
+
+#文档{
+  font-size: 16px;
+  line-height: 28px;
+  text-align: left;
+  color: #414141;
+  padding-left: 600px;
+  margin-top: -45px;
+  margin-bottom: 100px;
+}
+
+
+    .后期反馈1 h1{
+      font-family: initial;
+      font-size: 64px;
+      color: rgba(255,37,0,0.15);
+      position: relative;
+      right: 45px;
       
-    }
-  
-    .翻页1:hover button{
-      background-color: #484848;
-      color: white;
-    }
-  
-    .翻页1{
-      float: left;
-      margin-left: 200px;
-      margin-bottom: 100px;
-    }
-  
-  
-   .翻页2 button{
-     cursor:pointer;
-      background-color: white;
-      border: 2px solid #484848;
-      color: #181818;
-      padding: 10px 50px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-     
-      border-radius: 5px;
-      
-    }
-  
-    .翻页2:hover button{
-      background-color: #484848;
-      color: white;
-    }
-  
-    .翻页2{
-      float: right;
-      margin-right: 200px;
-      margin-bottom: 100px;
-    }
-  
-    .Footer{
-      height:60px;
-      font-size: 15px;
-      color: rgba(0,0,0,0.6);
-      margin-top: 200px;
     }
     
+    .后期反馈1 h2{
+      font-size: 24px;
+      color: rgba(52,52,52,1);
+      position: relative;
+      top:-85px;
+    }
+    
+  
+    
+    
+    
+    
+     .翻页12 button{
+       cursor:pointer;
+        background-color: white;
+        border: 2px solid #484848;
+        color: #181818;
+        padding: 10px 50px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+
+        border-radius: 5px;
+        
+      }
+    
+      .翻页12:hover button{
+        background-color: #484848;
+        color: white;
+      }
+    
+    
+    
+      .Footer{
+        height:60px;
+        font-size: 15px;
+        color: rgba(0,0,0,0.6);
+        margin-top: 200px;
+      }

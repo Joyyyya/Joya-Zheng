@@ -23,8 +23,8 @@ a{
 
 
 .hero{
-  background: url('../image/bg.png');
-  height: 700px;
+  background: url('../image/web.png');
+  height: 750px;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -32,15 +32,15 @@ a{
 
 .herogroup{
   margin: 0 auto;
-  max-width: 500px;
+  max-width: 600px;
   padding: 150px 50px;
   text-align: center;
 }
 
 .hero h1{
-  margin:0 auto;
+  margin:130px 0 0  0;
   color:white;
-  font-size: 40px;
+  font-size: 50px;
   line-height: 1.3;
   opacity: 0;
   animation: heroAnimation;
@@ -52,8 +52,8 @@ a{
 
 .hero p{
   color: rgba(255,255,255,0.8);
-  font-size: 18px;
-  line-height: 0.3;
+  font-size: 30px;
+  line-height: 0.1;
   animation: heroAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
   opacity: 0;
 }
@@ -74,6 +74,24 @@ a{
 }
 
 
+ .hero button{
+  cursor:pointer;
+   background-color: #8336da;
+   border: none;
+   color: white;
+   padding: 10px 30px;
+   text-align: center;
+   /* text-decoration: none; */
+   display: inline-block;
+   font-size: 14px;
+   font-weight: 20px;
+   border-radius: 40px;
+   margin-top: 25px;
+ }
+
+.hero button:hover{
+  background-color: #5334F5;
+}
 
 @keyframes heroAnimation{
   0%{
@@ -108,7 +126,7 @@ a{
 
 }
 
-Cards h2{
+/* Cards h2{
   margin: 50px 20px;
   font-size: 60px;
    text-align: center;
@@ -116,7 +134,7 @@ Cards h2{
    background: linear-gradient(104deg, #050A27 0%, #4A548c 100% );
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
-}
+} */
 
 
 .CardGroup{
@@ -280,6 +298,82 @@ Cards h2{
 }
 
 
+.y1{
+  position:absolute;
+    top:150px;
+    left:150px;
+   
+}
+
+.y2{
+  position:absolute;
+    top:450px;
+    left:140px;
+    animation: yAnimation;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1.0);
+    animation-iteration-count: infinite;
+}
+
+.y3{
+  position:absolute;
+    top:160px;
+    left:380px;
+    /* animation: yAnimation;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1.0);
+    animation-iteration-count: infinite; */
+}
+
+.y4{
+  position:absolute;
+    top:230px;
+    right:650px;
+    animation: yAnimation;
+    animation-duration: 4s;
+    animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1.0);
+    animation-iteration-count: infinite;
+}
+
+
+.y5{
+  position:absolute;
+    top:480px;
+    left:360px;
+    /* animation: yAnimation;
+    animation-duration: 5s;
+    animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1.0);
+    animation-iteration-count: infinite; */
+}
+
+.y6{
+  position:absolute;
+    top:430px;
+    right:160px;
+    /* animation: yAnimation;
+    animation-duration: 4s;
+    animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1.0);
+    animation-iteration-count: infinite; */
+}
+
+.y7{
+  position:absolute;
+    top:230px;
+    right:100px;
+    animation: yAnimation;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1.0);
+    animation-iteration-count: infinite;
+}
+
+
+.y8{
+  position:absolute;
+    top:500px;
+    right:350px;
+   
+}
+
 @keyframes pAnimation{
   0%{
     transform: translateY(0px);
@@ -312,6 +406,23 @@ Cards h2{
 
   }
 }
+
+
+@keyframes yAnimation{
+  0%{
+    opacity: 0;
+  }
+
+  50%{
+    opacity: 1;
+  }
+
+  100%{
+    opacity: 0;
+
+  }
+}
+
 
 @media (max-width: 1080px) {
   .p5, .p10, .p12, .p6, .p13, .p2, .p7 {

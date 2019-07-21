@@ -12,7 +12,7 @@ import './Header.css'
       // <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
       <div className="Header">
        <div className="HeaderGroup">
-         <Link to="/" ><button1>Joya Zheng</button1></Link>
+         <Link to="/" ><button1>Joley Zheng</button1></Link>
          <Link to="/">                       </Link>  
          <Link to="/">                       </Link>
          <Link to="/">                       </Link> 
