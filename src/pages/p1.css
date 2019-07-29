@@ -8,7 +8,8 @@
     .content1{
         max-width: 950px;
         min-width: 950px;
-        padding: 100px 0 0 230px;
+        padding: 100px 0 0 0;
+        margin: 0 auto;
         text-align: center;
         
       }

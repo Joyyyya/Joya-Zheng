@@ -7,6 +7,8 @@ import './Header.css'
 
 // class Header extends React.Component{
   
+
+
   const Header =({ siteTitle }) =>(
  
       // <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>

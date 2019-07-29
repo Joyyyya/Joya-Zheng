@@ -67,7 +67,7 @@ const IndexPage = () => (
       <div className="CardGroup">
       <Link to="P1"><Card 
         //  title="Design system"
-         text="SenseHi 刷脸打卡动效设计"
+         text="SenseHello 刷脸打卡动效设计"
          image={require('../image/sensehi2.png')}/></Link>
        <Link to="P2"><Card 
         //  title="React for Designers"
@@ -83,7 +83,7 @@ const IndexPage = () => (
          image={require('../image/sensear@2x.png')}/></Link>
         <Link to="P5"> <Card 
         //  title="ARkit 2"
-         text="10 sections"
+         text="SenseHello更新迭代"
          image={require('../image/watch.png')}/></Link>
          <Link to="P6"><Card 
         //  title="ARkit 2"
