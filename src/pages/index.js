@@ -8,28 +8,6 @@ const IndexPage = () => (
   <div>
     <div className="hero">
      <div className="herogroup">
-     {/* <div className="group">
-     <div className="photo"> */}
-     
-     {/* <span className="hi">
-     <img src={require('../image/Hi.png')} width="80"></img>
-     </span> */}
-     {/* </div>
-     </div> */}
-     {/* <div className="p1"> <img  src={require('../image/吉他.png')} width="40" /></div>
-     <div className="p2"> <img src={require('../image/画笔.png')} width="40" /></div>
-     <div className="p3"> <img  src={require('../image/坚果.png')} width="40" /></div>
-     <div className="p4"> <img  src={require('../image/篮球.png')} width="40" /></div>
-     <div className="p5"> <img  src={require('../image/平板.png')} width="60" /></div>
-     <div className="p6"> <img  src={require('../image/球.png')} width="40" /></div>
-     <div className="p7"> <img  src={require('../image/沙发.png')} width="60" /></div>
-     <div className="p8"> <img  src={require('../image/书本.png')} width="50" /></div>
-     <div className="p9"> <img  src={require('../image/书本2.png')} width="60" /></div>
-     <div className="p10"> <img  src={require('../image/水杯.png')} width="40" /></div>
-     <div className="p11"> <img  src={require('../image/星球.png')} width="40" /></div>
-     <div className="p12"> <img  src={require('../image/颜料.png')} width="50" /></div>
-     <div className="p13"> <img  src={require('../image/颜料盘.png')} width="40" /></div> */}
-
     <div className="y1"> <img  src={require('../image/紫圈.png')} width="60"/></div>
      <div className="y2"> <img src={require('../image/白圆1.png')} width="20"/></div>
      <div className="y3"> <img  src={require('../image/白圆2.png')} width="25"/></div>
@@ -39,10 +17,6 @@ const IndexPage = () => (
      <div className="y7"> <img  src={require('../image/紫圆小.png')} /></div>
      <div className="y8"> <img  src={require('../image/黄圈.png')} width="80"/></div>
  
-  
-    
-    
-
       <h1>Hello, I am Joley Zheng<br /></h1>
       <p>A UX Designer</p>
       <Link to="/about/"><button>ABOUT ME</button></Link>

@@ -23,7 +23,8 @@ a{
 
 
 .hero{
-  background: url('../image/web.png');
+  background-image: url('../image/web.png'),linear-gradient(to bottom left, #292929, #1a1a1a);
+  
   height: 750px;
   background-size: cover;
   background-position: center;
