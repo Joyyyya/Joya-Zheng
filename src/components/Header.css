@@ -25,6 +25,13 @@
     justify-items: center;
 }
 
+.Header .header-nav-link {
+    color: rgba(255, 255, 255, 0.7); 
+    font-weight: 700;  
+}
+.Header .header-nav-link:hover {
+    color: rgba(255, 255, 255, 1); 
+}
 
 .Header a{
     color: rgba(255, 255, 255, 0.7); 
