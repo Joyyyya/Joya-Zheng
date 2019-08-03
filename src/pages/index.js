@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from '../components/Card';
 import Link from 'gatsby-link'
+import LazyImg from '../components/LazyImg';
 
 
 
@@ -8,14 +9,14 @@ const IndexPage = () => (
   <div>
     <div className="hero">
      <div className="herogroup">
-    <div className="y1"> <img  src={require('../image/紫圈.png')} width="60"/></div>
-     <div className="y2"> <img src={require('../image/白圆1.png')} width="20"/></div>
-     <div className="y3"> <img  src={require('../image/白圆2.png')} width="25"/></div>
-     <div className="y4"> <img  src={require('../image/黄圆1.png')} width="20"/></div>
-     <div className="y5"> <img  src={require('../image/黄圆2.png')} width="25"/></div>
-     <div className="y6"> <img  src={require('../image/紫圆大.png')} /></div>
-     <div className="y7"> <img  src={require('../image/紫圆小.png')} /></div>
-     <div className="y8"> <img  src={require('../image/黄圈.png')} width="80"/></div>
+    <div className="y1"> <LazyImg  src={require('../image/紫圈.png')} width="60"/></div>
+     <div className="y2"> <LazyImg src={require('../image/白圆1.png')} width="20"/></div>
+     <div className="y3"> <LazyImg  src={require('../image/白圆2.png')} width="25"/></div>
+     <div className="y4"> <LazyImg  src={require('../image/黄圆1.png')} width="20"/></div>
+     <div className="y5"> <LazyImg  src={require('../image/黄圆2.png')} width="25"/></div>
+     <div className="y6"> <LazyImg  src={require('../image/紫圆大.png')} /></div>
+     <div className="y7"> <LazyImg  src={require('../image/紫圆小.png')} /></div>
+     <div className="y8"> <LazyImg  src={require('../image/黄圈.png')} width="80"/></div>
  
       <h1>Hello, I am Joley Zheng<br /></h1>
       <p>A UX Designer</p>

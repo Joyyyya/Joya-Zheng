@@ -1,6 +1,7 @@
 import React from 'react'
 import './Card.css'
 import Link from 'gatsby-link'
+import LazyImg from './LazyImg';
 
 const Card = props =>(
     <div id="Card" className="Card">

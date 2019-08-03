@@ -586,7 +586,7 @@
     color: rgba(52,52,52,0.15);
     position: relative;
     right: 45px;
-    margin-top: -180px;
+    /* margin-top: -180px; */
   }
   
   .最终方案6 h2{
