@@ -14,7 +14,7 @@ import './Header.css'
       // <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
       <div className="Header">
        <div className="HeaderGroup">
-         <Link to="/" ><button1>Joley Zheng</button1></Link>
+         <Link to="/" ><span className="header-nav-link">Joley Zheng</span></Link>
          <Link to="/">                       </Link>  
          <Link to="/">                       </Link>
          <Link to="/">                       </Link> 
@@ -27,9 +27,9 @@ import './Header.css'
          <Link to="/">                       </Link> 
          <Link to="/">                       </Link>
          <Link to="/">                       </Link>
-         <a href="/#Card"><button2>项目</button2></a>
-         <Link to="/jianli/" ><button3>简历</button3></Link>
-         <Link to="/about/" ><button4>关于我</button4></Link>
+         <a href="/#Card"><span className="header-nav-link">项目</span></a>
+         <Link to="/jianli/" ><span className="header-nav-link">简历</span></Link>
+         <Link to="/about/" ><span className="header-nav-link">关于我</span></Link>
        </div>
      </div> 
     )
