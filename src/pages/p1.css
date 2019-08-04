@@ -136,15 +136,20 @@
       top:-65px;
     }
     
-    .设计背景1 img{
-      margin-top: -100px;
-    }
 
+    #改版前动效{
+      margin-top: -100px;
+      margin-left:-550px;
+    }
     
+    #设计背景{
+      margin-left: 280px;
+      margin-top: -700px;
+    }
     
     .设计分析1{
       margin: 40px 0 0 0;
-      margin-top: -280px;
+     
     }
     
     

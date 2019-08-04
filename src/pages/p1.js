@@ -49,11 +49,11 @@ const p1 = () => (
       <div className="设计背景1">
         <h1>01</h1>
         <h2 id="12">设计背景</h2>
-        <LazyImg src={require('../image/改版前.gif')} />
-        <div style={{position: 'relative'}}>
+        <LazyImg id="改版前动效" src={require('../image/改版前.gif')} />
+        <div style={{position: 'relative', left:'100px'}}>
           <div id="120" style={{position: 'absolute', top: '-200px'}}></div>
         </div>
-        <LazyImg src={require('../image/设计背景.png')} />
+        <LazyImg id="设计背景" src={require('../image/设计背景.png')} />
       </div>
       <div className="设计分析1">
         <a name="13"></a><h1>02</h1>

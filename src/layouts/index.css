@@ -76,24 +76,56 @@ a{
 }
 
 
- .hero button{
+ .button{
   cursor:pointer;
-   background-color: #8336da;
+  background-color: #8336da;
    border: none;
-   color: white;
+   color: #FFFFFF;
    padding: 10px 30px;
    text-align: center;
-   /* text-decoration: none; */
    display: inline-block;
-   font-size: 14px;
-   font-weight: 20px;
+   font-size: 18px;
+   font-weight: bold;
    border-radius: 40px;
-   margin-top: 25px;
+   margin-top: 25px;  
+   width: 100px;
  }
 
-.hero button:hover{
+ .button a{
+   color: #FFFFFF;
+ }
+
+ .button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '↓';
+  position: absolute;
+  opacity: 0;
+  top: -17px;
+  right: -20px;
+  transition: 0.5s;
+  color: white;
+}
+
+.button:hover span {
+  padding-right: 20px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button:hover {
   background-color: #5334F5;
 }
+
+
 
 @keyframes heroAnimation{
   0%{
