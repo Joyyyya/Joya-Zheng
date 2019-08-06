@@ -59,8 +59,12 @@
     
      .简介1 {
       margin: 50px 0;
+     
      }
     
+    
+
+
      .简介1 img{
       float: left;
       width: 480px;
@@ -118,6 +122,7 @@
     
     .设计背景1{
       margin: 80px 0 0 0;
+
     }
     
     .设计背景1 h1{
@@ -136,6 +141,7 @@
       top:-65px;
     }
     
+  
 
     #改版前动效{
       margin-top: -100px;
@@ -188,7 +194,7 @@
       font-size: 18px;
       text-align: left;
       color: #343434;
-      /* margin-top: -180px; */
+      margin-top: -180px;
       margin-bottom: -3px;
      
     }
