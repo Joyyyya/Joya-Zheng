@@ -1,14 +1,16 @@
-import React,{ useLayoutEffect, useCallback, useState, useRef, useEffect } from 'react';
+import React, { Component } from 'react';
+
 // import LazyLoad from 'react-lazy-load';
 
-export default function LazyImg(props) {
+export default class LazyImg extends Component {
 
-    // const { height, width, src, ...resetProps } = props;
+    constructor(props) {
+        super(props);
+        this.state = { loaded: false };
+    }
 
-    const imgRef = useRef();
-    const [loaded, setLoaded] = useState(false);
-    
-    useEffect(() => {
+    componentDidMount() {
+        this.imgRef = this.refs['imgRef'];
         const io = new IntersectionObserver(entries => {
             entries.forEach(entry => {
                 const { intersectionRatio, target } = entry;
@@ -17,21 +19,23 @@ export default function LazyImg(props) {
                 target.src = target.dataset.src;
             });
         });
-        io.observe(imgRef.current);
-        imgRef.current.onload = () => {
-            setLoaded(true);
+        io.observe(this.imgRef);
+        this.imgRef.onload = () => {
+            this.setState({ loaded: true });
         }
+        this.io = io;
+    }
 
-        return () => {
-            io.unobserve(imgRef.current);
-            imgRef.current.onload = null;
-        } 
-    }, []);
+    componentWillUnmount() {
+        this.io.unobserve(this.imgRef);
+        this.imgRef.onload = null;
+    }
 
-    return (
-        <React.Fragment>
-            {/* {loaded && <Spin size="large"/>} */}
-            <img data-src={props.src} {...props} src={null} ref={imgRef}></img> 
-        </React.Fragment>
-    );
+
+    render() {
+        const props = this.props;
+        return (
+            <img data-src={props.src} {...props} src={null} ref="imgRef"></img> 
+        );
+    }
 }
