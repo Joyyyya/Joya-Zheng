@@ -56,8 +56,21 @@
       color: #4C4C4C;
      }
   
+     @keyframes P1Animation{
+      0%{
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100%{
+        opacity: 1;
+        transform: translateY(0px);
+    
+      }
+    }
+
    .简介6 {
     margin: 50px 0;
+    animation: P1Animation 5s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
    }
   
    .简介6 img{
@@ -115,8 +128,10 @@
    margin: 0 auto;
   }
   
+
   .设计背景6{
     margin: 80px 0 0 0;
+    animation: P1Animation 5s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
   }
   
   .设计背景6 h1{
@@ -143,11 +158,28 @@
     margin-top: -60px;
   }
   
+ 
+
   .设计分析6{
     margin: 40px 0 0 0;
   }
+
+
+  .设计分析61{
+    animation: P1Animation 5s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+
+
+  .设计分析62{
+    animation: P1Animation 5s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
   
+  .设计分析63{
+    animation: P1Animation 5s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
   
+
+
   .设计分析6 h1{
     font-family: initial;
     font-size: 64px;
@@ -351,6 +383,24 @@
   }
   
   
+  .方案对比61 {
+    animation: P1Animation 5s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+
+  .方案对比62 {
+    animation: P1Animation 5s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+
+  .方案对比63 {
+    animation: P1Animation 5s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+
+  .方案对比64 {
+    animation: P1Animation 5s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+
+ 
+
   .方案对比6 h1{
     font-family: initial;
     font-size: 64px;
@@ -578,6 +628,10 @@
     position: relative;
     top:-240px;
     right: -220px;
+  }
+
+  .最终方案6 {
+    animation: P1Animation 5s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
   }
   
   .最终方案6 h1{
