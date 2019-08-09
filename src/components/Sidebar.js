@@ -33,7 +33,8 @@ export default class Sidebar extends Component {
             this.setState({activeId: target.id});
         });
         const elements = this.props.anchors.map(anchor => document.getElementById(anchor.id)).filter(element => element);
-        this.elements.forEach(item => io.observe(item));
+        elements.forEach(item => io.observe(item));
+        this.elements = elements;
 
         // 处理顶部监听
         document.addEventListener('scroll', this.hanldeTop);
