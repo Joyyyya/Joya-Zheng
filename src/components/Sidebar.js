@@ -33,7 +33,7 @@ export default class Sidebar extends Component {
             this.setState({activeId: target.id});
         });
         const elements = this.props.anchors.map(anchor => document.getElementById(anchor.id)).filter(element => element);
-        elements.forEach(item => io.observe(item));
+        this.elements.forEach(item => io.observe(item));
 
         // 处理顶部监听
         document.addEventListener('scroll', this.hanldeTop);
@@ -41,7 +41,7 @@ export default class Sidebar extends Component {
     }
 
     componentWillUnmount() {
-        elements.forEach(item => io.unobserve(item));
+        this.elements.forEach(item => io.unobserve(item));
         document.removeEventListener('scroll', this.hanldeTop)
     }
 
