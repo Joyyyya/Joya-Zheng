@@ -74,7 +74,7 @@
 
      .简介1 {
       margin: 50px 0;
-      animation: P1Animation 5s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+      animation: P1Animation 5s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
      }
     
     
@@ -137,7 +137,7 @@
     
     .设计背景1{
       margin: 80px 0 0 0;
-      animation: P1Animation 5s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+      animation: P1Animation 5s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
     }
     
     .设计背景1 h1{
@@ -170,22 +170,22 @@
     
     .设计分析11{
       margin: 40px 0 0 0;
-      animation: P1Animation 5s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+      animation: P1Animation 5s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
     }
   
     .设计分析12{
       margin: 40px 0 0 0;
-      animation: P1Animation 5s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+      animation: P1Animation 5s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
     }
 
     .设计分析13{
       margin: 40px 0 0 0;
-      animation: P1Animation 5s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+      animation: P1Animation 5s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
     }
 
     .设计分析14{
       margin: 40px 0 0 0;
-      animation: P1Animation 5s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+      animation: P1Animation 5s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
     }
     
     .设计分析1 h1{
@@ -264,19 +264,19 @@
     }
     
     .方案对比11{
-      animation: P1Animation 5s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+      animation: P1Animation 5s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
     }
   
     .方案对比12{
-      animation: P1Animation 5s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+      animation: P1Animation 5s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
     }
 
     .方案对比13{
-      animation: P1Animation 5s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+      animation: P1Animation 5s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
     }
 
     .方案对比14{
-      animation: P1Animation 5s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+      animation: P1Animation 5s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
     }
 
     .方案对比1 h1{
@@ -583,7 +583,7 @@
 
 
 .后期反馈1{
-      animation: P1Animation 5s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+      animation: P1Animation 5s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
     .后期反馈1 h1{
