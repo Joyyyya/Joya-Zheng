@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Sidebar from '../components/Sidebar';
 import LazyImg from '../components/LazyImg';
+import Animate from '../components/Animate';
 
 import './p1.css'
 
@@ -31,9 +32,18 @@ const anchors = [{
   id: '15', label: '后期反馈'
 }];
 
+const triggerSelectors = [
+  '.简介1', 
+  '.设计背景1', 
+  '.设计分析11', '.设计分析12', '.设计分析13', '.设计分析14',
+  '.方案对比11', '.方案对比12', '.方案对比13', '.方案对比14',
+  '.后期反馈1'
+]; 
+
 const p1 = () => (
   <div>
     <Sidebar anchors={anchors}/>
+    <Animate triggerSelectors={triggerSelectors}/>
 
     <div className="content1">
       <a name="11"></a> <h1>SenseHello 刷脸打卡动效设计</h1>

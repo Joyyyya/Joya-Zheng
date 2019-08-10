@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import './p6.css'
 import Sidebar from '../components/Sidebar';
 import LazyImg from '../components/LazyImg';
-
+import Animate from '../components/Animate';
 
 const anchors = [{ 
   id: '61', label: '简介'
@@ -21,9 +21,19 @@ const anchors = [{
   id: '65', label: '最终方案'
 }];
 
+const triggerSelectors = [
+  '.简介6', 
+  '.设计背景6', 
+  '.设计分析61', '.设计分析62', '.设计分析63',
+  '.方案对比61', '.方案对比62', '.方案对比63', '.方案对比64',
+  '.最终方案6'
+]; 
+
 const p6 = () => (
     <div>
       <Sidebar anchors={anchors}/>
+      <Animate triggerSelectors={triggerSelectors}/>
+
       <div className="content6">
         <a></a> <h1>真时4G智能手表</h1>
 

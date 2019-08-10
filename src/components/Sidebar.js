@@ -32,7 +32,7 @@ export default class Sidebar extends Component {
             if (intersectionRatio <= 0) return;
             this.setState({activeId: target.id});
         });
-        const elements = this.props.anchors.map(anchor => document.getElementById(anchor.id)).filter(element => element);
+        const elements = this.props.anchors.map(anchor => document.getElementById(anchor.id)).filter(element => element).filter(element => element);
         elements.forEach(item => io.observe(item));
         this.elements = elements;
 
@@ -42,7 +42,7 @@ export default class Sidebar extends Component {
     }
 
     componentWillUnmount() {
-        this.elements.forEach(item => io.unobserve(item));
+        this.elements.forEach(item => this.io.unobserve(item));
         document.removeEventListener('scroll', this.hanldeTop)
     }
 
