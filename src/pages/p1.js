@@ -48,7 +48,7 @@ const p1 = () => (
     <div className="content1">
       <a name="11"></a> <h1>SenseHello 刷脸打卡动效设计</h1>
       <div className="简介1" id="11">
-        <LazyImg src={require('../image/首图.png')} />
+        <LazyImg src={require('../image/首图.png')} width="480px" height="431px"/>
         <p id="简介1">简介</p>
         <p id="简介内容1">SenseHello是基于公司研发的人脸识别技术，商汤内部员工刷脸打卡考勤软件。打卡软件讲究效率，而改版前的刷脸动效不够顺畅，整体动效迟缓，影响打卡体验。我刷脸打卡的流程进行分析，在原有的动效基础上进行改进，提高刷脸打卡的效率和整体体验。</p>
         <p id="时间1">时间</p>
