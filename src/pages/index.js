@@ -20,7 +20,7 @@ const IndexPage = () => (
  
       <h1>Hello, I am Joley Zheng<br /></h1>
       <p>A UX Designer</p>
-      <div className="button"><a href="/#Card">Projects</a><span></span></div>
+      <a href="/#Card"><div className="button">Projects<span></span></div></a>
      
       <svg width="100%" height="172" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path fill="white">
@@ -60,7 +60,7 @@ const IndexPage = () => (
         <Link to="P5"> <Card 
         //  title="ARkit 2"
          text="SenseHello更新迭代"
-         image={require('../image/watch.png')}/></Link>
+         image={require('../image/sensehi迭代.png')}/></Link>
          <Link to="P6"><Card 
         //  title="ARkit 2"
          text="时科技4G手表"

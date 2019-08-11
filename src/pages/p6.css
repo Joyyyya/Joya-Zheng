@@ -68,7 +68,7 @@
       }
     }
     .move-anim {
-      animation: P1Animation 5s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+      animation: P1Animation 3s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
     }
 
    .简介6 {

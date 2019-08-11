@@ -97,50 +97,50 @@ const p1 = () => (
 
       
       <div className="方案对比1">
-        <a name="14"></a><h1>03</h1>
         <div className="方案对比11">
+          <a name="14"></a><h1>03</h1>
           <h2 id="14">方案对比</h2>
           <p id="方案对比">基于上述设计原则，针对打卡动效中存在问题的三个过程进行重新设计，对比不同方案的优劣，确定最终的方案。</p>
           <h3>1.进入界面过渡</h3>
-          <LazyImg id="放大" src={require('../image/放大.gif')} width="230px" />
-          <LazyImg id="模糊" src={require('../image/模糊.gif')} width="230px" />
-          <LazyImg id="绽放" src={require('../image/绽放.gif')} width="230px" />
+          <LazyImg id="放大" src={require('../image/放大.gif')} width="230px" height="410px"/>
+          <LazyImg id="模糊" src={require('../image/模糊.gif')} width="230px" height="410px"/>
+          <LazyImg id="绽放" src={require('../image/绽放.gif')} width="230px" height="410px"/>
           <p id="方案一">方案一：遮罩蒙版放大进入</p>
           <p id="方案二">方案二：模糊过渡</p>
           <p id="方案三">方案三：打卡按钮上升放大像烟花一样绽开</p>
-          <LazyImg id="缩小" src={require('../image/缩小.gif')} width="230px" />
+          <LazyImg id="缩小" src={require('../image/缩小.gif')} width="230px" height="410px"/>
           <p id="最终">方案三动效过渡不够自然，与设计原则中的温和亲切相违背，最终结合方案一和方案二，蒙版模糊放大过渡。但由于在后期开发过程中发现模糊的实现效果并不理想，放弃了进入界面过渡过程的模糊效果，并做了调整：蒙版缩小进入，与最后成功状态蒙版放大回到首页相呼应。</p>
           <p id="end">最终方案：遮罩蒙版放大进入</p>
         </div>
         <div className="方案对比12">
           <h4>2.loading</h4>
-          <LazyImg id="大" src={require('../image/大圈loading.gif')} width="230px" />
-          <LazyImg id="小" src={require('../image/小圈loading.gif')} width="230px" />
+          <LazyImg id="大" src={require('../image/大圈loading.gif')} width="230px" height="410px"/>
+          <LazyImg id="小" src={require('../image/小圈loading.gif')} width="230px" height="410px"/>
           <p id="说明">1.打卡的时候用户视线会一直停留在打卡的圈内，若圈外变化会很难注意到；<br /><br />2.方案一中loading过程与识别过程形式一 致，用户难以区分，有可能会误认为loading过程为识别过程，从而认为识别过程太慢效率不高。<br /><br />选择第二种，让用户的视线集中在屏幕中间。</p>
           <p id="外">方案一：圈外红点变为loading动效</p>
           <p id="内">方案二：蒙版收缩白圈内loading</p>
         </div>  
         <div className="方案对比13">
           <h5>3.成功反馈</h5>
-          <LazyImg id="弹窗" src={require('../image/成功弹窗.gif')} width="230px" />
-          <LazyImg id="打钩" src={require('../image/打钩.gif')} width="230px" />
+          <LazyImg id="弹窗" src={require('../image/成功弹窗.gif')} width="230px" height="410px"/>
+          <LazyImg id="打钩" src={require('../image/打钩.gif')} width="230px" height="410px"/>
           <p id="说明2">方案一比较普通，反馈形式较生硬无法引导用户视线，且与loading过渡衔接不流畅；<br /><br />方案二与loading采用一样的形式，过渡衔接自然，且能给予及时的反馈，在打卡界面就给予反馈。采用方案二。</p>
           <p id="toast">方案一：toast成功提示</p>
           <p id="success">方案二：由原来的loading变为成功的提示</p>
         </div>
         <div className="方案对比14">
           <h6>4.返回首页过渡</h6>
-          <LazyImg id="上升" src={require('../image/上升.gif')} width="230px" />
-          <LazyImg id="卡片" src={require('../image/卡片.gif')} width="230px" />
-          <LazyImg id="时间" src={require('../image/时间变化.gif')} width="230px" />
+          <LazyImg id="上升" src={require('../image/上升.gif')} width="230px" height="410px"/>
+          <LazyImg id="卡片" src={require('../image/卡片.gif')} width="230px" height="410px"/>
+          <LazyImg id="时间" src={require('../image/时间变化.gif')} width="230px" height="410px"/>
           <p id="方案一4">方案一：首页内容上升过渡</p>
           <p id="方案二4">方案二：卡片缩放进入</p>
           <p id="方案三4">方案三：打卡时间切换</p>π
           <div id="140" />
           <p id="说明4">回想自己打卡的行为，自己打完卡之后最关心的是打卡时间，大部分情况下打完卡只会去看卡片上打卡的时间。从这个思路出发，应该是引导用户去看打卡的时间，时间的更新变化对用户来说也会变得更加合理自然，最终选择第三种动效。</p>
           <p id="最终1">5.最终方案</p>
-          <LazyImg id="打卡动效" src={require('../image/最终.gif')} width="230px" />
-          <LazyImg id="动效文档" src={require('../image/动效文档.png')} width="650px" />
+          <LazyImg id="打卡动效" src={require('../image/最终.gif')} width="230px" height="410px"/>
+          <LazyImg id="动效文档" src={require('../image/动效文档.png')} width="650px" height="437px"/>
           <p id="方案">最终方案</p>
           <p id="文档">动效文档</p>
           <a name="15"></a>
@@ -150,7 +150,11 @@ const p1 = () => (
       <div className="后期反馈1" id="15">
         <h1>04</h1>
         <h2>后期反馈</h2>
-
+        <p>打卡动效版本上线后一到两个月的时间，对部分用户做了问卷调研，了解用户对此次动效改版的满意度。总共收到58份有效问卷，主要数据如下：</p>
+        <LazyImg  src={require('../image/问卷问题1.png')} width="950px" height="504px"/>
+        <LazyImg  src={require('../image/问卷问题2.png')} width="950px" height="413px"/>
+        <LazyImg  src={require('../image/问卷问题3.png')} width="950px" height="402px"/>
+        <p id="后期反馈分析">从统计结果看，刷脸动效希望呈现的效果基本上能被用户感知，打卡满意度在3分及以上的用户占84%。满意度较低的用户反馈识别过程还是太慢，通过数据也可以看出想要通过动效提升刷脸打卡的速度感知是比较难的，打卡识别过程受到更多外界的因素影响，包括网络快慢和识别技术，想要提升刷脸打卡的整体体验还是需要优化识别技术，提高识别速度，再在此基础上，优化打卡动效。</p>
       </div>
 
       <div className="翻页12"> <Link to="/p2" ><button >下一篇</button></Link></div>
