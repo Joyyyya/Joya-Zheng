@@ -1,0 +1,494 @@
+.div{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .content2{
+      max-width: 950px;
+      min-width: 950px;
+      padding: 100px 0 0 0;
+      margin: 0 auto;
+      text-align: center;
+      
+    }
+    
+    .content2 h2{
+      font-size: 36px;
+      color: #343434;
+    }
+    
+    .nav2{
+      width:70px;
+      height: 130px;
+      position: fixed;
+      top:300px;
+      right: 80px;
+      line-height: 30px;
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+    }
+  
+    .nav2 a{
+      font-size: 16px;
+      color: #9C9C9C;
+    }
+  
+  
+    #n1:hover {
+     color: #4C4C4C;
+    }
+   
+  
+    #n2:hover {
+      color: #4C4C4C;
+     }
+  
+     #n3:hover {
+      color: #4C4C4C;
+     }
+  
+     #n4:hover {
+      color: #4C4C4C;
+     }
+  
+     #n5:hover {
+      color: #4C4C4C;
+     }
+  
+
+     @keyframes P1Animation{
+      0%{
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100%{
+        opacity: 1;
+        transform: translateY(0px);
+    
+      }
+    }
+
+  .move-anim {
+    animation: P1Animation 3s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+
+
+   .简介2 {
+    margin: 50px 0;
+   
+   }
+  
+  
+
+
+   .简介2 img{
+    float: left;
+    overflow: hidden;
+    }
+  
+    
+     #简介2{
+       margin: 0 0 10px 0;
+       padding:0 0 0 10px;
+       text-align: left;
+       font-size: 20px;
+       font-weight: bold;
+     }
+  
+     #简介内容2{
+      font-size: 16px;
+      line-height: 28px;
+      text-align: left;
+      color: #414141;
+      margin: 0 auto;
+    }
+  
+    #时间2{
+      margin: 0 0 10px 0;
+      padding: 20px 0 0 0;
+      text-align: left;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  
+    #时间内容2{
+     font-size: 16px;
+     line-height: 28px;
+     text-align: left;
+     color: #414141;
+     margin: 0 auto;
+   }
+  
+   #角色和工作2{
+    position: relative;
+    left:250px;
+    top:-85px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  #角色和工作内容2{
+   position: relative;
+   left:672px;
+   top:-93px;
+   font-size: 16px;
+   line-height: 28px;
+   text-align: left;
+   color: #414141;
+   
+  }
+
+  .用户特征{
+    margin: -80px 0 0 0;
+   
+  }
+  
+  .用户特征 h1{
+    font-family: initial;
+    font-size: 64px;
+    color: rgba(0,0,0,0.15);
+    position: relative;
+    right: 45px;
+    margin: 0 auto;
+  }
+  
+  .用户特征 h2{
+    font-size: 24px;
+    color: rgba(52,52,52,1);
+    position: relative;
+    top:-65px;
+  }
+
+  .用户特征 p{
+    font-size: 16px;
+      line-height: 28px;
+      text-align: left;
+      color: #414141;
+      margin: -60px 0 20px 0 ;
+  }
+
+  .人脸布控 h1{
+    font-family: initial;
+    font-size: 64px;
+    color: rgba(0,0,0,0.15);
+    position: relative;
+    right: 45px;
+    margin: 40px 0 0 0 ;
+  }
+  
+  .人脸布控 h2{
+    font-size: 24px;
+    color: rgba(52,52,52,1);
+    position: relative;
+    top:-65px;
+  }
+
+#用户行为1{
+    margin-top:-10px;
+}
+
+ #人脸布控用户行为文字{
+    font-size: 16px;
+      line-height: 28px;
+      text-align: left;
+      color: #414141;
+      margin: 0 0 20px 0 ;
+  }
+
+  .人脸布控 h3{
+    font-size: 20px;
+    text-align: left;
+    color: #343434;
+    margin-top: -50px;
+  }
+
+  #人脸布控结果呈现文字{
+    font-size: 16px;
+      line-height: 28px;
+      text-align: left;
+      color: #414141;
+      margin: 0 0 20px 0 ;
+  }
+
+
+  .人脸布控 h4{
+    font-size: 20px;
+    text-align: left;
+    color: #343434;
+    margin-top: 60px;
+  }
+
+  #用户行为2{
+    margin-top:-10px;
+}
+
+#人脸详情用户行为{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+    margin: 0 0 20px 0 ;
+}
+
+#人脸详情设计难点{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+    margin: 0 0 20px 0 ;
+}
+
+#人脸详情思考解决{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+    margin: 0 0 20px 0 ;
+}
+
+.人脸布控 h5{
+    font-size: 20px;
+    text-align: left;
+    color: #343434;
+    margin-top: 60px;
+  }
+
+  #用户行为3{
+    margin-top:-10px;
+}
+
+.人脸布控3 p{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+    margin: 0 0 20px 0;
+}
+   
+
+
+.图像布控 h1{
+    font-family: initial;
+    font-size: 64px;
+    color: rgba(0,0,0,0.15);
+    position: relative;
+    right: 45px;
+    margin: 80px 0 0 0 ;
+  }
+  
+  .图像布控 h2{
+    font-size: 24px;
+    color: rgba(52,52,52,1);
+    position: relative;
+    top:-65px;
+  }
+
+  #图像布控简介{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+    margin: -50px 0 20px 0 ;
+  }
+
+  .图像布控 h3{
+    font-size: 20px;
+    text-align: left;
+    color: #343434;
+  }
+
+  #图像布控首页{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+    margin: -10px 0 20px 0 ;
+  }
+
+  .图像布控 h4{
+    font-size: 20px;
+    text-align: left;
+    color: #343434;
+    margin-top: 50px;
+  }
+
+  .图像布控2 p{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+    margin: -10px 0 20px 0 ;
+  }
+
+  .情报研判 h1{
+    font-family: initial;
+    font-size: 64px;
+    color: rgba(0,0,0,0.15);
+    position: relative;
+    right: 45px;
+    margin: 80px 0 0 0 ;
+  }
+  
+  .情报研判 h2{
+    font-size: 24px;
+    color: rgba(52,52,52,1);
+    position: relative;
+    top:-65px;
+  }
+
+  .情报研判1 p{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+    margin: -50px 0 20px 0 ;
+  }
+
+  .情报研判2 p{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+    margin: 60px 0 20px 0 ;
+  }
+
+  .情报研判3 h3{
+    font-size: 20px;
+    text-align: left;
+    color: #343434;
+    margin-top: 50px;
+  }
+
+  .用户画像 h1{
+    font-family: initial;
+    font-size: 64px;
+    color: rgba(0,0,0,0.15);
+    position: relative;
+    right: 45px;
+    margin: 80px 0 0 0 ;
+  }
+  
+  .用户画像 h2{
+    font-size: 24px;
+    color: rgba(52,52,52,1);
+    position: relative;
+    top:-65px;
+  }
+
+  .用户画像 h3{
+    font-size: 20px;
+    text-align: left;
+    color: #343434;
+    margin-top: -60px;
+  }
+
+  .用户画像1 p{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+    margin: 0 0 20px 0 ;
+  }
+
+  .用户画像 h4{
+    font-size: 20px;
+    text-align: left;
+    color: #343434;
+    margin: 50px 0 20px 0 ;
+  }
+
+  .用户画像2 p{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+    margin: 0 0 20px 0 ;
+  }
+
+  .反思总结 h1{
+    font-family: initial;
+    font-size: 64px;
+    color: rgba(0,0,0,0.15);
+    position: relative;
+    right: 45px;
+    margin: 50px 0 0 0 ;
+  }
+  
+  .反思总结 h2{
+    font-size: 24px;
+    color: rgba(52,52,52,1);
+    position: relative;
+    top:-65px;
+  }
+
+  .反思总结  p{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+    margin: -60px 0 60px 0 ;
+  }
+
+    
+  .翻页21 button{
+    cursor:pointer;
+    background-color: white;
+    border: 2px solid #484848;
+    color: #181818;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+   
+    border-radius: 5px;
+    
+  }
+
+  .翻页21:hover button{
+    background-color: #484848;
+    color: white;
+  }
+
+  .翻页21{
+    float: left;
+    margin-left: 150px ;
+    margin-bottom: 100px;
+  }
+
+
+ .翻页22 button{
+   cursor:pointer;
+    background-color: white;
+    border: 2px solid #484848;
+    color: #181818;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+   
+    border-radius: 5px;
+    
+  }
+
+  .翻页22:hover button{
+    background-color: #484848;
+    color: white;
+  }
+
+  .翻页22{
+    float: right;
+    margin-right: 200px;
+    margin-bottom: 100px;
+  }
+
+  .Footer{
+    height:60px;
+    font-size: 15px;
+    color: rgba(0,0,0,0.6);
+    margin-top: 200px;
+  }
+  

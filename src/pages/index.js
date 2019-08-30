@@ -47,12 +47,12 @@ const IndexPage = () => (
          image={require('../image/sensehi2.png')}/></Link>
        <Link to="P2"><Card 
         //  title="React for Designers"
-         text="10 sections"
-         image={require('../image/watch.png')}/></Link>
+         text="网警图像监控后台系统"
+         image={require('../image/radar.png')}/></Link>
         <Link to="P3"> <Card 
         //  title="Sound Design"
-         text="真时科技4G手表"
-         image={require('../image/watch.png')}/></Link>
+         text="AR项目合集"
+         image={require('../image/AR.png')}/></Link>
          <Link to="P4"> <Card 
         //  title="ARkit 2"
          text="SenseAR开发者平台"

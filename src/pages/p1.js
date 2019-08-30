@@ -6,13 +6,6 @@ import Animate from '../components/Animate';
 
 import './p1.css'
 
-/**
- *    <a href="#11" id="n1" >简介</a>
-   <a href="#12" id="n2" >设计背景</a>
-   <a href="#13" id="n3" >设计分析</a>
-   <a href="#14" id="n4" >方案对比</a>
-   <a href="#15" id="n5" >后期反馈</a>
- */
 
 const anchors = [{ 
   id: '11', label: '简介'
@@ -59,11 +52,11 @@ const p1 = () => (
       <div className="设计背景1">
         <h1>01</h1>
         <h2 id="12">设计背景</h2>
-        <LazyImg id="改版前动效" src={require('../image/改版前.gif')} />
+        <LazyImg id="改版前动效" src={require('../image/改版前.gif')} width="353px" height="640px"/>
         <div style={{position: 'relative', left:'100px'}}>
           <div id="120" style={{position: 'absolute', top: '-200px'}}></div>
         </div>
-        <LazyImg id="设计背景" src={require('../image/设计背景.png')} />
+        <LazyImg id="设计背景" src={require('../image/设计背景.png')} width="553px" height="663px"/>
       </div>
       <div className="设计分析1">
         <div className="设计分析11">
@@ -72,26 +65,26 @@ const p1 = () => (
           <h3>1.存在问题分析</h3>
           <p>分析整体的动效，将打卡动效的过程分为：1、打卡界面过渡；2、识别过程；3.上传打卡loading；4.成功并返回界面。<br />改版前各版块存在的问题如下：</p>
 
-          <LazyImg src={require('../image/改版前1.png')} />
-          <LazyImg src={require('../image/改版前2.png')} />
-          <LazyImg src={require('../image/改版前3.png')} />
+          <LazyImg src={require('../image/改版前1.png')} width="300px" height="430px"/>
+          <LazyImg src={require('../image/改版前2.png')} width="300px" height="430px"/>
+          <LazyImg src={require('../image/改版前3.png')} width="300px" height="430px"/>
           <p id="一">1.打卡界面过渡动效不流畅，点击按钮后界面会停滞一下，之后打卡界面从底部上滑</p>
           <p id="二和三">2.识别过程暂无问题；<br />3.loading弹窗生硬。</p>
           <p id="四">4.打卡成功后返回首页过渡不够自然，且自动刷新界面降低了整体打卡效率，用户需要需等待刷新后才可以看打卡时间。</p>
         </div> 
         <div className="设计分析12"> <h4>2.用户特征分析</h4>
           <p>产品的主要用户就是商汤科技公司的员工，这个群体有鲜明的用户特征：</p>
-          <LazyImg src={require('../image/用户特征.png')} />
+          <LazyImg src={require('../image/用户特征.png')} width="376px" height="313px"/>
         </div> 
         <div className="设计分析13"> 
           <h5 id="130">3.产品特征分析</h5>
           <p>SenseHi相对于其他类似的产品特征主要体现在以下三个方面，这三个方面也是产品希望向用户传达的：</p>
-          <LazyImg src={require('../image/产品特征.png')} />
+          <LazyImg src={require('../image/产品特征.png')} width="950px" height="261px"/>
         </div> 
         <div className="设计分析14"> 
           <h6>4.设计原则</h6>
           <p>基于用户群体特征和产品特征，提取以下几个主要关键词，并对关键词进行细化，分析出刷脸打卡动效设计的主要原则。</p>
-          <LazyImg src={require('../image/设计原则.png')} />
+          <LazyImg src={require('../image/设计原则.png')} width="950px" height="498px"/>
         </div>
       </div>
 
