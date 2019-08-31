@@ -1,0 +1,408 @@
+.div{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .content4{
+      max-width: 950px;
+      min-width: 950px;
+      padding: 100px 0 0 0;
+      margin: 0 auto;
+      text-align: center;
+      
+    }
+    
+    .content4 h2{
+      font-size: 36px;
+      color: #343434;
+    }
+    
+    .nav4{
+      width:70px;
+      height: 130px;
+      position: fixed;
+      top:300px;
+      right: 80px;
+      line-height: 30px;
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+    }
+  
+    .nav4 a{
+      font-size: 16px;
+      color: #9C9C9C;
+    }
+  
+  
+    #n1:hover {
+     color: #4C4C4C;
+    }
+   
+  
+    #n2:hover {
+      color: #4C4C4C;
+     }
+  
+     #n3:hover {
+      color: #4C4C4C;
+     }
+  
+     #n4:hover {
+      color: #4C4C4C;
+     }
+  
+     #n5:hover {
+      color: #4C4C4C;
+     }
+  
+
+     @keyframes P1Animation{
+      0%{
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100%{
+        opacity: 1;
+        transform: translateY(0px);
+    
+      }
+    }
+
+  .move-anim {
+    animation: P1Animation 3s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+
+
+   .简介4 {
+    margin: 50px 0;
+   
+   }
+  
+  
+
+
+   .简介4 img{
+    float: left;
+    overflow: hidden;
+    }
+  
+    
+     #简介4{
+       margin: 0 0 10px 0;
+       padding:0 0 0 10px;
+       text-align: left;
+       font-size: 20px;
+       font-weight: bold;
+     }
+  
+     #简介内容4{
+      font-size: 16px;
+      line-height: 28px;
+      text-align: left;
+      color: #414141;
+      margin: 0 auto;
+    }
+  
+    #时间4{
+      margin: 0 0 10px 0;
+      padding: 20px 0 0 0;
+      text-align: left;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  
+    #时间内容4{
+     font-size: 16px;
+     line-height: 28px;
+     text-align: left;
+     color: #414141;
+     margin: 0 auto;
+   }
+  
+   #角色和工作4{
+    position: relative;
+    left:670px;
+    top:-85px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  #角色和工作内容4{
+    position: relative;
+    left:672px;
+    top:-93px;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+   
+  }
+
+  .需求分析{
+    margin: -80px 0 0 0;
+   
+  }
+  
+  .需求分析 h1{
+    font-family: initial;
+    font-size: 64px;
+    color: rgba(0,0,0,0.15);
+    position: relative;
+    right: 45px;
+    margin: -80px 0 0 0;
+  }
+  
+  .需求分析 h2{
+    font-size: 24px;
+    color: rgba(52,52,52,1);
+    position: relative;
+    top:-65px;
+    margin-bottom: -30px;
+  }
+
+  
+  .用户调研 h1{
+    font-family: initial;
+    font-size: 64px;
+    color: rgba(0,0,0,0.15);
+    position: relative;
+    right: 45px;
+    margin: 40px 0 0 0 ;
+  }
+  
+  .用户调研 h2{
+    font-size: 24px;
+    color: rgba(52,52,52,1);
+    position: relative;
+    top:-65px;
+  }
+
+
+#用户调研1{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+    margin: -60px 0 30px 0;
+  }
+
+  .用户调研 h3{
+    font-size: 20px;
+    text-align: left;
+    color: #343434;
+    margin-bottom: -10px;
+  }
+
+  #用户调研2{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+   
+  }
+
+
+  .设计方案 h1{
+    font-family: initial;
+    font-size: 64px;
+    color: rgba(0,0,0,0.15);
+    position: relative;
+    right: 45px;
+    margin: 40px 0 0 0 ;
+  }
+  
+  .设计方案 h2{
+    font-size: 24px;
+    color: rgba(52,52,52,1);
+    position: relative;
+    top:-65px;
+    margin-bottom: -50px;
+  }
+
+
+  .设计方案 h3{
+    font-size: 20px;
+    text-align: left;
+    color: #343434;
+    margin-bottom: -2px;
+  }
+
+  .设计方案 h4{
+    font-size: 20px;
+    text-align: left;
+    color: #343434;
+  }
+
+  #网站首页{
+    margin-top: -20px;  
+  }
+
+  .设计方案21{
+      margin-top: 20px;
+  }
+
+  .设计方案 h5{
+    font-size: 20px;
+    text-align: left;
+    color: #343434;
+    margin-top: 60px;
+  }
+
+  #应用管理{
+    margin-top: -20px;  
+  }
+
+  .设计方案31{
+    margin-top: 20px;
+}
+
+.设计方案 h6{
+    font-size: 20px;
+    text-align: left;
+    color: #343434;
+    margin-top: 60px;
+  }
+
+  #填写表单{
+    margin-top: -30px;  
+  }
+
+
+  .设计方案41{
+    margin-top: 20px;
+}
+
+
+#创建应用成功{
+    margin-top: -30px;  
+  }
+
+
+  .设计方案51{
+    margin-top: 20px;
+}
+
+
+
+#应用列表{
+    margin-top: -30px;  
+  }
+
+
+  .设计方案61{
+    margin-top: 20px;
+}
+
+
+
+  .反思总结4 h1{
+    font-family: initial;
+    font-size: 64px;
+    color: rgba(0,0,0,0.15);
+    position: relative;
+    right: 45px;
+    margin: 50px 0 0 0 ;
+  }
+  
+
+  .反思总结4 h2{
+    font-size: 24px;
+    color: rgba(52,52,52,1);
+    position: relative;
+    top:-65px;
+  }
+
+  .反思总结4 h3{
+    font-size: 20px;
+    text-align: left;
+    color: #343434;
+    margin-top: -50px;
+  }
+
+  .反思总结4 h4{
+    font-size: 20px;
+    text-align: left;
+    color: #343434;
+    
+  }
+
+  #反思1{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+    margin: -10px 0 50px 0;
+  }
+
+  #反思2{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+    margin-top: -15px;
+    
+  }
+
+    
+  .翻页41 button{
+    cursor:pointer;
+    background-color: white;
+    border: 2px solid #484848;
+    color: #181818;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+   
+    border-radius: 5px;
+    
+  }
+
+  .翻页41:hover button{
+    background-color: #484848;
+    color: white;
+  }
+
+  .翻页41{
+    float: left;
+    margin-left: 150px ;
+    margin-bottom: 100px;
+  }
+
+
+ .翻页42 button{
+   cursor:pointer;
+    background-color: white;
+    border: 2px solid #484848;
+    color: #181818;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+   
+    border-radius: 5px;
+    
+  }
+
+  .翻页42:hover button{
+    background-color: #484848;
+    color: white;
+  }
+
+  .翻页42{
+    float: right;
+    margin-right: 200px;
+    margin-bottom: 100px;
+  }
+
+  .Footer{
+    height:60px;
+    font-size: 15px;
+    color: rgba(0,0,0,0.6);
+    margin-top: 200px;
+  }
+  
