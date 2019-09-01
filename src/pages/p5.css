@@ -1,0 +1,454 @@
+.div{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .content5{
+      max-width: 950px;
+      min-width: 950px;
+      padding: 100px 0 0 0;
+      margin: 0 auto;
+      text-align: center;
+      
+    }
+    
+    .content5 h2{
+      font-size: 36px;
+      color: #343434;
+    }
+    
+    .nav5{
+      width:70px;
+      height: 130px;
+      position: fixed;
+      top:300px;
+      right: 80px;
+      line-height: 30px;
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+    }
+  
+    .nav5 a{
+      font-size: 16px;
+      color: #9C9C9C;
+    }
+  
+  
+    #n1:hover {
+     color: #4C4C4C;
+    }
+   
+  
+    #n2:hover {
+      color: #4C4C4C;
+     }
+  
+     #n3:hover {
+      color: #4C4C4C;
+     }
+  
+     #n4:hover {
+      color: #4C4C4C;
+     }
+  
+     #n5:hover {
+      color: #4C4C4C;
+     }
+  
+
+     @keyframes P1Animation{
+      0%{
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100%{
+        opacity: 1;
+        transform: translateY(0px);
+    
+      }
+    }
+
+  .move-anim {
+    animation: P1Animation 3s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+
+
+   .简介5 {
+    margin: 50px 0;
+   
+   }
+  
+  
+
+
+   .简介5 img{
+    float: left;
+    overflow: hidden;
+    }
+  
+    
+    #简介5{
+        margin: 30px 0 10px 0;
+        padding: 40px 0 0 0;
+        text-align: left;
+        font-size: 20px;
+        font-weight: bold;
+      }
+   
+      #简介内容5{
+       font-size: 16px;
+       line-height: 28px;
+       text-align: left;
+       color: #414141;
+       margin: 0 auto;
+     }
+   
+     #时间5{
+       margin: 0 0 10px 0;
+       padding: 20px 0 0 0;
+       text-align: left;
+       font-size: 20px;
+       font-weight: bold;
+     }
+   
+     #时间内容5{
+      font-size: 16px;
+      line-height: 28px;
+      text-align: left;
+      color: #414141;
+      margin: 0 auto;
+    }
+   
+    #角色和工作5{
+     margin: 0 0 10px 0;
+     padding: 20px 0 0 0;
+     text-align: left;
+     font-size: 20px;
+     font-weight: bold;
+   }
+   
+   #角色和工作内容5{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+    margin: 0 auto;
+   }
+
+
+   .登录流程 h1{
+    font-family: initial;
+    font-size: 64px;
+    color: rgba(255,37,0,0.15);
+    position: relative;
+    right: 45px;
+    margin: 0 auto;
+  }
+  
+  .登录流程 h2{
+    font-size: 24px;
+    color: rgba(52,52,52,1);
+    position: relative;
+    top:-65px;
+  }
+  
+
+  .登录流程{
+    margin: 70px 0 0 0;
+   
+  }
+ 
+  .登录流程 p{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+    margin: -60px 0 20px 50px;
+  }
+ 
+  .外勤打卡 h1{
+    font-family: initial;
+    font-size: 64px;
+    color: rgba(255,37,0,0.15);
+    position: relative;
+    right: 45px;
+    margin: 60px 0 0 0;
+  }
+  
+  .外勤打卡 h2{
+    font-size: 24px;
+    color: rgba(52,52,52,1);
+    position: relative;
+    top:-65px;
+  }
+
+
+ #外勤打卡优化{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+    margin: -60px 0 20px 0;
+  }
+
+  #外勤打卡优化前{
+    width: 300px;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+    margin: -10px 0 0 0;
+  }
+
+  #外勤打卡优化后{
+    width: 600px;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+    position: relative;
+    left: 350px;
+    top: -100px;
+  }
+
+  .采集任务 h1{
+    font-family: initial;
+    font-size: 64px;
+    color: rgba(255,37,0,0.15);
+    position: relative;
+    right: 45px;
+    margin: -40px 0 0 0;
+  }
+  
+  .采集任务 h2{
+    font-size: 24px;
+    color: rgba(52,52,52,1);
+    position: relative;
+    top:-65px;
+  }
+
+  .采集任务分析{
+    width: 950px;
+    height: 490px;
+    background-color: white;  
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    margin: -50px 0 50px 0;
+    border-radius: 10px;
+  }
+
+
+  .采集任务分析 svg{
+    margin: 20px 0 0 -880px;
+}
+ 
+
+ #采集需求背景{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+     position: relative;
+     left:55px;
+     top:-45px;
+ }
+
+ #采集需求背景内容{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+    margin: -55px 0 15px 25px;
+ }
+
+ #采集用户目标{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+     position: relative;
+     left:55px;
+     top:-45px;
+ }
+
+ #采集用户目标内容{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+    margin: -55px 0 15px 25px;
+ }
+
+#采集用户关注{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+     position: relative;
+     left:55px;
+     top:-45px;
+}
+
+#采集用户关注内容{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+    margin: -55px 0 15px 25px;
+ }
+
+
+ #采集结果呈现{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+     position: relative;
+     left:55px;
+     top:-45px;
+ }
+
+ #采集结果呈现内容{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+    margin: -55px 0 15px 25px;
+ }
+
+
+ .新闻模块 h1{
+    font-family: initial;
+    font-size: 64px;
+    color: rgba(255,37,0,0.15);
+    position: relative;
+    right: 45px;
+    margin: 50px 0 0 0;
+  }
+  
+  .新闻模块 h2{
+    font-size: 24px;
+    color: rgba(52,52,52,1);
+    position: relative;
+    top:-65px;
+  }
+
+  #新闻产品需求{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+    margin: -60px 0 0 0;
+  }
+
+  .新闻模块 h3{
+    font-size: 20px;
+    text-align: left;
+    color: #343434;
+    margin:30px 0 10px 0;
+  }
+
+ #新闻设计要点一图片{
+     margin:0 0 0 -400px;
+ }
+
+ #新闻设计要点一{
+    width: 350px;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+    margin: -460px 0 200px 600px;
+ }
+
+ .新闻模块 h4{
+    font-size: 20px;
+    text-align: left;
+    color: #343434;
+    margin:30px 0 10px 0;
+  }
+
+  .新闻设计要点二 p{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #414141;
+    margin: 0 0 10px 0 ;
+  }
+ 
+  .新闻设计要点二2{
+      margin:30px 0 0 0;
+  }
+
+  .新闻模块 h5{
+    font-size: 20px;
+    text-align: left;
+    color: #343434;
+    margin:30px 0 10px 0;
+  }
+
+.新闻最终方案{
+    margin-bottom: 80px;
+}
+
+
+  .翻页51 button{
+    cursor:pointer;
+    background-color: white;
+    border: 2px solid #484848;
+    color: #181818;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    
+  }
+
+
+  .翻页51:hover button{
+    background-color: #484848;
+    color: white;
+  }
+
+  .翻页51{
+    float: left;
+    margin-left: 150px ;
+    margin-bottom: 100px;
+  }
+
+
+ .翻页52 button{
+   cursor:pointer;
+    background-color: white;
+    border: 2px solid #484848;
+    color: #181818;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+   
+    border-radius: 5px;
+    
+  }
+
+  .翻页52:hover button{
+    background-color: #484848;
+    color: white;
+  }
+
+  .翻页52{
+    float: right;
+    margin-right: 200px;
+    margin-bottom: 100px;
+  }
+
+  .Footer5{
+    height:60px;
+    font-size: 15px;
+    color: rgba(0,0,0,0.6);
+    margin-top: 200px;
+  }
+  

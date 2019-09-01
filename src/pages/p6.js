@@ -139,8 +139,8 @@ const p6 = () => (
           <LazyImg src={require('../image/最终方案.png')} />
         </div>
         <div className="翻页16">
-          <Link to="/p2" ><button >上一篇</button></Link></div>
-        <div className="Footer"> ©️2019 by Joley Zheng </div>
+          <Link to="/p5" ><button >上一篇</button></Link></div>
+        <div className="Footer6"> ©️2019 by Joley Zheng </div>
       </div>
     </div>
 );

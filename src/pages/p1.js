@@ -151,7 +151,7 @@ const p1 = () => (
       </div>
 
       <div className="翻页12"> <Link to="/p2" ><button >下一篇</button></Link></div>
-      <div className="Footer"> ©️2019 by Joley Zheng </div>
+      <div className="Footer1"> ©️2019 by Joley Zheng </div>
     </div>
   </div>
 )

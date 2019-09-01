@@ -111,7 +111,7 @@ const p4 = () => (
       <Link to="/p3" ><button >上一篇</button></Link></div>
     <div className="翻页42"> <Link to="/p5" ><button >下一篇</button></Link></div>
     <div id="450"></div>
-    <div className="Footer"> ©️2019 by Joya Zheng </div>
+    <div className="Footer4"> ©️2019 by Joya Zheng </div>
   </div>
 </div>
 )

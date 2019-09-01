@@ -407,7 +407,7 @@
     margin: 0 0 20px 0 ;
   }
 
-  .反思总结 h1{
+  .反思总结2 h1{
     font-family: initial;
     font-size: 64px;
     color: rgba(0,0,0,0.15);
@@ -416,14 +416,14 @@
     margin: 50px 0 0 0 ;
   }
   
-  .反思总结 h2{
+  .反思总结2 h2{
     font-size: 24px;
     color: rgba(52,52,52,1);
     position: relative;
     top:-65px;
   }
 
-  .反思总结  p{
+  .反思总结2  p{
     font-size: 16px;
     line-height: 28px;
     text-align: left;
@@ -485,10 +485,10 @@
     margin-bottom: 100px;
   }
 
-  .Footer{
+  .Footer2{
     height:60px;
     font-size: 15px;
     color: rgba(0,0,0,0.6);
-    margin-top: 200px;
+    margin-top: 160px;
   }
   
