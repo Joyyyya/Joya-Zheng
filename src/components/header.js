@@ -28,7 +28,7 @@ import './Header.css'
          <Link to="/">                       </Link>
          <Link to="/">                       </Link>
          <a href="/#Card"><span className="header-nav-link">项目</span></a>
-         <a href="https://join.qq.com/upload/resume_file/190904/28a9df7f89bc1768ae4f160efa7ab35e.pdf" target="_blank"><span className="header-nav-link">简历</span></a>
+         <a href="https://join.qq.com/upload/resume_file/190904/dfe598b3b76d2a6cec3713e5668eb730.pdf" target="_blank"><span className="header-nav-link">简历</span></a>
          <a href="http://www.woshipm.com/u/823776" target="_blank"><span className="header-nav-link">文章</span></a>
        </div>
      </div> 
