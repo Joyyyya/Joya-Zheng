@@ -50,7 +50,7 @@ const p5 = () => (
 
     <div className="登录流程">
      <a name="52"></a><h1>01</h1>
-      <h2 id="52">需求分析</h2>
+      <h2 id="52">登录流程</h2>
       <p>对登录流程进行优化，简化流程，提高效率，并优化头像录入过程，给用户更多自主权，减少后续修改头像步骤。</p>
       <LazyImg  src={require('../image/登录流程.png')} width="850px" height="1416px"/>
       <div style={{position: 'relative', left:'100px'}}>
