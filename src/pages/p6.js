@@ -72,9 +72,9 @@ const p6 = () => (
           </div>  
           <div className="设计分析62">  
             <h5>3.用户行为路径</h5>
-            <LazyImg src={require('../image/路径1.png')} />
-            <LazyImg src={require('../image/路径2.png')} />
-            <LazyImg src={require('../image/路径3.png')} />
+            <LazyImg src={require('../image/路径1.png')} width="950px" height="135px"/>
+            <LazyImg src={require('../image/路径2.png')} width="950px" height="161px"/>
+            <LazyImg src={require('../image/路径3.png')} width="950px" height="161px"/>
             <p id="b1">在时间表盘进入管理表盘界面>浏览表盘>点击预览>多次浏览预览对比后>找到喜欢的>确定更换</p>
             <p id="b2">DM上下载表盘后>在时间表盘进入管理表盘界面>浏览刚下载的表盘>预览下载的表盘>多次浏览预览对比后>找到喜欢的>确定更换</p>
             <p id="b3">在时间表盘盘进入管理表盘界面>浏览表盘>发现有不喜欢的/过时的表盘>删除表盘>继续浏览表盘>预览表盘>多次浏览预览对比后>找到喜欢的>确定更换</p>
