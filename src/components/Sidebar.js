@@ -42,7 +42,7 @@ export default class Sidebar extends Component {
     }
 
     componentWillUnmount() {
-        this.elements.forEach(item => this.io.unobserve(item));
+        Array.isArray(this.elements) && this.elements.forEach(item => this.io.unobserve(item));
         document.removeEventListener('scroll', this.hanldeTop)
     }
 

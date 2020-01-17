@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 
 // import LazyLoad from 'react-lazy-load';
 
+const style = { display: 'inline-block', width: 200, height: 200, color: 'green', border: '1px solid #fff' };
 export default class LazyImg extends Component {
 
     constructor(props) {
         super(props);
-        this.state = { loaded: false };
+        this.state = { loaded: false, width: 10, height: 10 };
     }
 
     componentDidMount() {
@@ -35,7 +36,10 @@ export default class LazyImg extends Component {
     render() {
         const props = this.props;
         return (
-            <img data-src={props.src} {...props} src={null} ref="imgRef"></img> 
+            <span>
+                { !this.state.loaded && <div style={style} {...props}></div>}
+                <img data-src={props.src} {...props} src={null} ref="imgRef"></img>
+            </span>
         );
     }
 }
